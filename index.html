@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tripadvisor Clone</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Gabarito:wght@400..900&family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="icon" href="./images/footer-img.svg">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="navbar__left">
+      <img src="./images/trip-advisor-navbar-logo.png" alt="Tripadvisor Logo">
+    </div>
+
+    <nav class="navbar__center">
+      <div class="nav-item">
+        <p>Discover</p>
+        <div class="popup">Travellers' Choice<br>Travel Stories</div>
+      </div>
+      <div class="nav-item">
+        <p>Trips</p>
+        <div class="popup">Plan New Trip<br>View Past Trips</div>
+      </div>
+      <div class="nav-item">
+        <p>Review</p>
+        <div class="popup">Write a Review<br>Upload Photos</div>
+      </div>
+      <div class="nav-item">
+        <p>More</p>
+        <div class="popup">Help Center<br>Settings</div>
+      </div>
+    </nav>
+<!-- Far right section of the navbar -->
+    <div class="navbar__right">
+      <button class="language-selector">
+        <i class="fas fa-globe"></i>
+        <span class="lang-divider"></span>
+        <span>INR</span>
+      </button> 
+      <button class="navbar__btn">
+        Sign In
+      </button>
+    </div>
+
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1 class="hero__title">Where to?</h1>
+  </section>
+
+  <!-- Category Navigation -->
+  <nav class="navbar2">
+    <button class="navbar2__buttons"><i class="fa-solid fa-house"></i> Search All</button>
+    <button class="navbar2__buttons"><i class="fa-solid fa-bed"></i> Hotels</button>
+    <button class="navbar2__buttons"><i class="fa-solid fa-camera"></i> Things to Do</button>
+    <button class="navbar2__buttons"><i class="fa-solid fa-utensils"></i> Restaurants</button>
+    <button class="navbar2__buttons"><i class="fa-solid fa-plane"></i> Flights</button>
+    <button class="navbar2__buttons"><i class="fa-solid fa-house-user"></i> Holiday Homes</button>
+  </nav>
+
+  <!-- Search Bar -->
+  <div class="navbar3">
+    <div class="search-container">
+      <input class="navbar3__search" type="search" placeholder="Places to go, things to do, hotels..." />
+      <button class="search-button">Search</button>
+    </div>
+  </div>
+
+  <!--Hero Image-->
+  <div class="heroimage">
+    <img src="./images/banner-image.jpg" alt="banner-image">
+
+    <!-- Hero Image Text -->
+    <div class="heroimage__text">
+
+      <!-- Hero Image Title -->
+      <div class="heroimage__title">
+        <h1>World's best hotelshotels⎯chosen by you</h1>
+      </div>
+
+      <!-- Hero Image Description -->
+      <p>From beachside resorts to the most unique stays. See the top 1% of hotelsfrom Travellers' Choice Best of the
+        Best and save your faves.
+      </p>
+    </div>
+
+    <!-- Hero Image Button -->
+    <button class="heroimage__button">Reveal Winners</button>
+  </div>
+  </div>
+
+  <!-- Categories Section -->
+  <div class="categories">
+
+    <!-- This is the title and description of the categories section -->
+    <h2 class="categories__title">Stay at the world's top hotels</h2>
+    <p>2025's Travellers' Choice Awards Best of the Best Hotels</p>
+
+    <!-- This is the container to hold the categories -->
+    <div class="categories__container">
+
+      <!-- These are the categories -->
+      <!-- category 1 -->
+      <div class="categories__card">
+        <img src="./images/category-img-1.jpg" alt="World Category">
+        <div class="categories__card__desc">
+          <h2>World</h2>
+        </div>
+      </div>
+
+      <!-- category 2 -->
+      <div class="categories__card">
+        <img src="./images/category-img-2.jpg" alt="Luxury Category">
+        <div class="categories__card__desc">
+          <h2>Luxury</h2>
+        </div>
+      </div>
+
+      <!-- category 3 -->
+      <div class="categories__card">
+        <img src="./images/category-img-3.jpg" alt="Family Friendly">
+        <div class="categories__card__desc">
+          <h2>Family Friendly</h2>
+        </div>
+      </div>
+
+      <!-- category 4 -->
+      <div class="categories__card">
+        <img src="./images/category-img-4.jpg" alt="One of a kind">
+        <div class="categories__card__desc">
+          <h2>One of a kind</h2>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  <!-- end of category section -->
+
+  <!-- Book Tour Section -->
+  <div class="tour">
+    <!-- This is the title and description -->
+    <h2 class="tour__title">Ways to tour Chennai(Madras)</h2>
+    <p>Book these experiences for a close-up look at Chennai (Madras).</p>
+
+    <!-- This is the container to hold the tour cards -->
+    <div class="tour__container">
+
+      <!-- These are the tour cards -->
+      <!-- Tour card 1 -->
+
+      <div class="tour__card">
+        <img src="./images/tour-img-1.jpg" alt="tour card 1">
+        <h4>Mahabalipuram Private tour from Chennai by car with guide and lunch by Wonder</h4>
+        <p>4.9 🟢🟢🟢🟢🟢 (98)</p>
+        <strong>from ₹8,505 per adult </strong>
+      </div>
+
+      <!-- Tour card 2 -->
+      <div class="tour__card">
+        <img src="./images/tour-img-2.jpg" alt="tour card 1">
+        <h4>Mahabalipuram Private tour from Chennai by car with guide and lunch by Wonder</h4>
+        <p>4.9 🟢🟢🟢🟢🟢 (98)</p>
+        <strong>from ₹8,505 per adult </strong>
+      </div>
+
+      <!-- Tour card 3 -->
+      <div class="tour__card">
+        <img src="./images/tour-img-3.jpg" alt="tour card 1">
+        <h4>Mahabalipuram Private tour from Chennai by car with guide and lunch by Wonder</h4>
+        <p>4.9 🟢🟢🟢🟢🟢 (98)</p>
+        <strong>from ₹8,505 per adult </strong>
+      </div>
+
+      <!-- Tour card 4 -->
+      <div class="tour__card">
+        <img src="./images/tour-img-4.jpg" alt="tour card 1">
+        <h4>Mahabalipuram Private tour from Chennai by car with guide and lunch by Wonder</h4>
+        <p>4.9 🟢🟢🟢🟢🟢 (98)</p>
+        <strong>from ₹8,505 per adult </strong>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- Full Width Banner section -->
+  <div class="banner">
+    <div class="banner__container">
+      <img src="./images/banner-img-1.svg" alt="Travellers' choice awards image">
+      <h1 class="banner__title">Travellers' Choice Awards: Best of the Best</h1>
+      <h2 class="banner__subtitle">
+        Among our top 1% of places, stays, eats, and experiences—decided by you.
+      </h2>
+      <button class="banner__button">See the winners</button>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+
+    <div class="footer__one">
+
+      <div class="footer__one__s1">
+        <p>About Tripadvisor</p>
+        <p>About Us</p>
+        <p>Press</p>
+        <p>Resources and Policies</p>
+        <p>Careers</p>
+        <p>Trust & Safety</p>
+        <p>Contact us</p>
+        <p>Accessibility Statement</p>
+        <p>Tripadvisor Technology</p>
+        <p>Blog</p>
+      </div>
+
+      <div class="footer__one__s2">
+        <p>Explore</p>
+        <p>Write a review</p>
+        <p>Add a Place</p>
+        <p>Join</p>
+        <p>Travellers' Choice</p>
+        <p>Help Centre</p>
+        <p>Travel Stories</p>
+      </div>
+
+      <div class="footer__one__s3">
+        <p>Do Business With Us</p>
+        <p>Owners & DMO/CVB</p>
+        <p>Business Advantage</p>
+        <p>Sponsored Placements</p>
+        <p>Access our Content API</p>
+        <p>Get The App</p>
+        <p>iPhone App</p>
+        <p>Android App</p>
+      </div>
+
+      <div class="footer__one__s4">
+        <p>Tripadvisor Sites</p>
+        <p>Book tours and attraction tickets on Viator</p>
+      </div>
+
+    </div>
+
+    <footer class="site-footer">
+      <div class="footer__container">
+        <div class="footer__top">
+          <img src="./images/footer-img.svg" alt="Logo" class="footer__logo" />
+
+          <div class="footer__links">
+            <a href="#">Terms of Use</a>
+            <a href="#">Privacy and Cookies Statement</a>
+            <a href="#">Cookie Consent</a>
+            <a href="#">Site Map</a>
+            <a href="#">How the site works</a>
+            <a href="#">Contact Us</a>
+          </div>
+
+          <div class="footer__selectors">
+            <select>
+              <option>₹ INR</option>
+            </select>
+            <select>
+              <option>India</option>
+            </select>
+          </div>
+
+          <div class="footer__social">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-x-twitter"></i></a>
+            <a href="#"><i class="fab fa-pinterest"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-tiktok"></i></a>
+          </div>
+        </div>
+
+        <div class="footer__bottom">
+          <p>© 2025 Tripadvisor LLC All rights reserved.</p>
+          <p class="footer__notice">
+            This is the version of our website addressed to speakers of English in India.
+            If you are a resident of another country or region, please select the appropriate version
+            of Tripadvisor for your country or region in the drop-down menu.
+            <strong>Show more</strong>
+          </p>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+</html>
